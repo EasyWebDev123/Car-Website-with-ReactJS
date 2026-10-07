@@ -1,9 +1,9 @@
-import Car from "./Car"
+import Background from "./Components/Background/Background"
 
 const App = () => {
   return (
     <>
-    <Car/>
+    <Background/>
     </>
   )
 }
