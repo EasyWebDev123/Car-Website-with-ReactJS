@@ -15,10 +15,10 @@ const Background = ({playStatus,heroCount}) => {
       </video>
     )
   }
-  else if(heroCount==0){
+  else if(heroCount==1){
     return <img src={image1} className='background' alt="" />
   }
-  else if(heroCount==1){
+  else if(heroCount==2){
     return <img src={image2} className='background' alt="" />
   }
   else if(heroCount==3){
