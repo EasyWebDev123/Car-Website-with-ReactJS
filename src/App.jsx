@@ -1,7 +1,6 @@
 import { useState } from "react"
 import Background from "./Components/Background/Background"
-import NavBar from "./Components/NavBar/NavBar";
-
+import Navbar from "./Components/Navbar/Navbar"
 const App = () => {
 
   let heroData = [
@@ -16,7 +15,7 @@ const App = () => {
   return (
     <>
     <Background playStatus={playStatus} heroCount={heroCount}/>
-    <NavBar/>
+    <Navbar/>
     </>
   )
 }

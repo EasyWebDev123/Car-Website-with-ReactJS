@@ -1,5 +1,5 @@
 import './Navbar.css'
-const NavBar = () => {
+const Navbar = () => {
   return (
     <div className='nav'>
       <div
@@ -8,10 +8,10 @@ const NavBar = () => {
         <li>Home</li>
         <li>About</li>
         <li>Services</li>
-        <li>Contact</li>
+        <li className='nav-contact'>Contact</li>
       </ul>
     </div>
   )
 }
 
-export default NavBar
+export default Navbar
