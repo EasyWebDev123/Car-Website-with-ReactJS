@@ -17,7 +17,7 @@ const App = () => {
     <>
     <Background playStatus={playStatus} heroCount={heroCount}/>
     <NavBar/>
-    <Hero playStatus={playStatus} heroCount={heroCount} setHeroCount={setHeroCount} setPlayStatus={setPlayStatus} heroData={heroData}/>
+    <Hero playStatus={playStatus} heroCount={heroCount} setHeroCount={setHeroCount} setPlayStatus={setPlayStatus} heroData={heroData[heroCount]}/>
     </>
   )
 }
