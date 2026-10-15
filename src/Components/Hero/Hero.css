@@ -1,10 +1,10 @@
 .hero{
   margin: 0px 40px;
-  margin-top: 50px;
+  margin-top: 110px;
 }
 .hero-text{
   color: #fff;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 50px;
 }
@@ -13,6 +13,7 @@
   align-items: center;
   gap: 20px;
   width: fit-content;
+  height: fit-content;
   margin-top: 40px;
   padding: 5px 8px;
   padding-left: 30px;
@@ -24,6 +25,9 @@
   color: #292929;
   font-size: 20px;
   font-weight: 500;
+}
+.hero-explore img{
+  width: 50px;
 }
 .hero-dot-play{
   margin-top: 80px;
