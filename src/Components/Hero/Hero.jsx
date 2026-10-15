@@ -20,14 +20,14 @@ const Hero = ({heroCount,setHeroCount,playStatus,setPlayStatus,heroData}) => {
       <div className="hero-dot-play">
 
         <ul className="hero-dots">
-          <li onClick={() => setHeroCount(0)} className={heroCount === 0 ? "active" : "hero-dot"}></li>
-          <li onClick={() => setHeroCount(1)} className={heroCount === 1 ? "active" : "hero-dot"}></li>
-          <li onClick={() => setHeroCount(2)} className={heroCount === 2 ? "active" : "hero-dot"}></li>
+          <li onClick={() => setHeroCount(0)} className={heroCount === 0 ? "hero-dot active" : "hero-dot"}></li>
+          <li onClick={() => setHeroCount(1)} className={heroCount === 1 ? "hero-dot active" : "hero-dot"}></li>
+          <li onClick={() => setHeroCount(2)} className={heroCount === 2 ? "hero-dot active" : "hero-dot"}></li>
         </ul>
 
         <div className="hero-play">
           <img onClick={()=> setPlayStatus(!playStatus)} src={playStatus?pause_icon:play_icon} alt="play" />
-          <p>See Video</p>
+          <p>See the Video</p>
           </div>
 
       </div>

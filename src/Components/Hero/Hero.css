@@ -30,3 +30,28 @@
   display: flex;
   justify-content: space-between;
 }
+.hero-dots{
+  list-style: none;
+  gap: 40px;
+  display: flex;
+  align-items: center;
+}
+.hero-dot{
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.hero-dot.active{
+  background: rgb(221, 56, 64);
+}
+.hero-play{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.hero-play p{
+  color: #fff;
+  font-size: 20px;
+}
